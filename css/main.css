@@ -9,3 +9,6 @@
 @import "./base/base.css";
 
 /* Blocks */
+
+@import "./blocks/header.css";
+@import "./blocks/hero.css";
