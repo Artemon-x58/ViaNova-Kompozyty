@@ -1,5 +1,4 @@
 .header {
-  /* position: fixed; */
   width: 100%;
   padding-top: 20px;
   height: 500px;
@@ -21,8 +20,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  /* padding: 0 40px; */
   background-color: transparent;
+  z-index: 10;
 }
 
 .logo {
@@ -31,33 +31,39 @@
 .logo-img {
   width: 80px;
   height: 40px;
+  fill: rgb(3, 3, 197);
 }
 
 .navigation {
   /* display: none; */
   position: relative;
-  padding: 15px;
+  padding: 25px;
   text-align: center;
 
-  background-color: tomato;
+  background-color: #000;
 }
 
 .nav-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 .nav-item {
 }
 
 .nav-link {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  color: var(--accent);
 }
 
 .btn-close {
   position: absolute;
   top: 10px;
   right: 10px;
+  fill: #b22222;
 }
 
 .svg-close {
@@ -71,4 +77,5 @@
 .svg-burger {
   width: 32px;
   height: 32px;
+  fill: var(--accent);
 }
