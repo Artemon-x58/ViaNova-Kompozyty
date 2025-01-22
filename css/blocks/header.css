@@ -1,18 +1,31 @@
 .header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   padding-top: 20px;
+  height: 500px;
+  background-image: url("../../img/luxurious_outdoor_hot_tub.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container.header-wrapper {
+  position: relative;
+}
+
+.header-wrapper-row {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 0 40px;
+  background-color: transparent;
 }
 
 .logo {
-  margin-right: auto;
 }
 
 .logo-img {
@@ -53,7 +66,6 @@
 }
 
 .btn-burger {
-  margin-left: auto;
 }
 
 .svg-burger {
