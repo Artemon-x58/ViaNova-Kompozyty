@@ -20,39 +20,49 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 40px; */
   background-color: transparent;
   z-index: 10;
 }
 
-.logo {
-}
-
 .logo-img {
-  width: 80px;
-  height: 40px;
-  fill: rgb(3, 3, 197);
+  width: 100px;
+  height: 60px;
+  fill: var(--accent);
 }
 
 .navigation {
-  /* display: none; */
-  position: relative;
-  padding: 25px;
-  text-align: center;
-
+  position: fixed;
+  top: 0;
+  right: -80%;
+  height: 100vh;
+  width: 80%;
+  padding: 50px;
   background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+  z-index: 100;
+}
+
+.navigation.active {
+  transform: translateX(-100%); /* Показываем меню, выдвигая его */
 }
 
 .nav-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 35px;
 }
 
 .nav-item {
 }
 
 .nav-link {
+  padding: 10px;
+
   font-family: var(--font-accent);
   font-weight: 700;
   letter-spacing: 0.19em;
@@ -61,9 +71,9 @@
 
 .btn-close {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  fill: #b22222;
+  top: 20px;
+  right: 20px;
+  fill: #e74545;
 }
 
 .svg-close {
