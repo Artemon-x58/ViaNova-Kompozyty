@@ -68,3 +68,10 @@
     font-size: 28px;
   }
 }
+
+@media (min-width: 1200px) {
+  .advantages-text {
+    display: block;
+    opacity: 1;
+  }
+}
