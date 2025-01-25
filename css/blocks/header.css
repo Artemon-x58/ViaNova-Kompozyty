@@ -48,7 +48,7 @@
 .logo-img:focus {
   transform: scale(1.2) rotate(15deg);
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
-  fill: #ff5500; /* Меняем цвет логотипа при ховере */
+  fill: #ff5500;
 }
 
 .navigation {
