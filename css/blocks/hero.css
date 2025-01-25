@@ -1,15 +1,11 @@
-.section-hero {
-  padding-top: 70px;
-}
-
 .hero-text {
-  font-family: "Montserrat", sans-serif; /* Современный и чистый шрифт */
-  font-size: clamp(0.875rem, 0.602rem + 1.36vw, 1.625rem);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
   line-height: 1.5;
   color: #f0dfcc;
   background-color: #000;
   padding: 15px 25px;
-  border: 2px solid var(--accent);
+  border: 1px solid var(--accent);
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(255, 140, 0, 0.4);
   text-align: center;

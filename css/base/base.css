@@ -33,6 +33,10 @@ a {
   overflow: hidden;
 }
 
+.section {
+  padding-top: 70px;
+}
+
 .container {
   max-width: 520px;
   margin: 0 auto;

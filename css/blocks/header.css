@@ -41,6 +41,14 @@
   width: 80px;
   height: 60px;
   fill: var(--accent);
+  transition: transform 0.3s ease, filter 0.3s ease, color 0.3s ease;
+}
+
+.logo-img:hover,
+.logo-img:focus {
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+  fill: #ff5500; /* Меняем цвет логотипа при ховере */
 }
 
 .navigation {
