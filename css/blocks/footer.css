@@ -1,0 +1,151 @@
+.footer {
+  padding: 80px 0 80px;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--accent) 0%,
+    rgba(255, 140, 0, 0.3) 50%,
+    var(--accent) 100%
+  );
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.footer-wrapper {
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.footer-logo-svg {
+  width: 150px;
+  height: 80px;
+  fill: var(--accent);
+}
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  color: #f0dfcc;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.05em;
+}
+.footer-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info-products-wrapper {
+  margin-bottom: 40px;
+}
+.footer-info-title {
+  margin-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+.footer-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #f0dfcc;
+  line-height: 1.7;
+
+  transition: color 0.2s ease-in;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent);
+}
+
+.footer-svg {
+  width: 30px;
+  height: 30px;
+  fill: #f0dfcc;
+
+  transition: fill 0.2s ease-in;
+}
+
+.footer-svg:hover,
+.footer-svg:focus {
+  fill: var(--accent);
+}
+
+.footer-link:hover .footer-svg,
+.footer-link:focus .footer-svg {
+  fill: var(--accent);
+}
+
+.footer-info-politics-wrapper {
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-list.socials-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-contacts-wrapper {
+  display: flex;
+  margin-bottom: 70px;
+}
+.footer-address-wrapper {
+}
+
+.footer-address-street {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+
+  transition: color 0.2s ease-in;
+}
+
+.footer-address-street:hover,
+.footer-address-street:focus {
+  color: var(--accent);
+}
+
+.footer-address-street:hover .footer-svg,
+.footer-address-street:focus .footer-svg {
+  fill: var(--accent);
+}
+
+.footer-socials-wrapper {
+}
+
+.footer-кopyright {
+  font-family: "Montserrat", sans-serif;
+  color: #f0dfcc;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
