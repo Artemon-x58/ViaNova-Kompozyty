@@ -9,16 +9,11 @@
 }
 
 .about-img {
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-}
-
-.about-img:hover {
   transform: scale(1.1) rotate(2deg);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   filter: brightness(1.1) contrast(1.2);
 }
+
 .about-title {
   margin-bottom: 15px;
   font-family: var(--font-accent);
